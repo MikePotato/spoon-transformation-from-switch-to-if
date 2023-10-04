@@ -3,16 +3,16 @@ public class Foo_patched {
         logger.append("BEFORE");
         for (int x = 0; x < 10; x++) {
             {
-                int expVal_3e3cd411f37349c481e9b1c033422918 = input;
-                if (java.util.Objects.equals(expVal_3e3cd411f37349c481e9b1c033422918, 0)) {
+                int expVal_9d784782ac324d22adef23908b48f5b8 = input;
+                if (java.util.Objects.equals(expVal_9d784782ac324d22adef23908b48f5b8, 0)) {
                     logger.append(input);
                     return;
-                } else if (!java.util.Objects.equals(expVal_3e3cd411f37349c481e9b1c033422918, 0) && !java.util.Objects.equals(expVal_3e3cd411f37349c481e9b1c033422918, 6) && !java.util.Objects.equals(expVal_3e3cd411f37349c481e9b1c033422918, 3) && !java.util.Objects.equals(expVal_3e3cd411f37349c481e9b1c033422918, 1)) {
+                } else if (!java.util.Objects.equals(expVal_9d784782ac324d22adef23908b48f5b8, 0) && !java.util.Objects.equals(expVal_9d784782ac324d22adef23908b48f5b8, 6) && !java.util.Objects.equals(expVal_9d784782ac324d22adef23908b48f5b8, 3) && !java.util.Objects.equals(expVal_9d784782ac324d22adef23908b48f5b8, 1)) {
                     logger.append("DEFAULT");
                     logger.append(2);
                     logger.append(input);
                     continue;
-                } else if (java.util.Objects.equals(expVal_3e3cd411f37349c481e9b1c033422918, 3) || java.util.Objects.equals(expVal_3e3cd411f37349c481e9b1c033422918, 6)) {
+                } else if (java.util.Objects.equals(expVal_9d784782ac324d22adef23908b48f5b8, 3) || java.util.Objects.equals(expVal_9d784782ac324d22adef23908b48f5b8, 6)) {
                     logger.append(2);
                     logger.append(input);
                     continue;
@@ -31,18 +31,18 @@ public class Foo_patched {
 
     public void testEmptyCase(int input, java.lang.StringBuilder logger) {
         {
-            java.lang.String expVal_e0b3891b95bf4db2ac2a48920f668183 = getValue(logger);
+            java.lang.String expVal_f2c5ce2947e84d65bde6919a171fa4bf = getValue(logger);
         }
     }
 
     public int testColonSwitchWithReturns(int arg, java.lang.StringBuilder logger) {
         for (int i = 0; i < 10; i++) {
             {
-                int expVal_83098a796726484a98885368052c9f71 = arg;
-                if (java.util.Objects.equals(expVal_83098a796726484a98885368052c9f71, 1) || java.util.Objects.equals(expVal_83098a796726484a98885368052c9f71, 0)) {
+                int expVal_4ae1ce3944484c21bb25d555419324be = arg;
+                if (java.util.Objects.equals(expVal_4ae1ce3944484c21bb25d555419324be, 1) || java.util.Objects.equals(expVal_4ae1ce3944484c21bb25d555419324be, 0)) {
                     logger.append(1);
                     return 1;
-                } else if (java.util.Objects.equals(expVal_83098a796726484a98885368052c9f71, 2)) {
+                } else if (java.util.Objects.equals(expVal_4ae1ce3944484c21bb25d555419324be, 2)) {
                     logger.append(2);
                     return 2;
                 } else {
@@ -57,17 +57,17 @@ public class Foo_patched {
 
     public void testMostPrimitiveCase(java.lang.String arg, java.lang.StringBuilder logger) {
         {
-            java.lang.String expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba = arg;
-            if (java.util.Objects.equals(expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba, "1") || java.util.Objects.equals(expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba, "0")) {
+            java.lang.String expVal_a7cf3667c203487ca16b1ab9c4822702 = arg;
+            if (java.util.Objects.equals(expVal_a7cf3667c203487ca16b1ab9c4822702, "1") || java.util.Objects.equals(expVal_a7cf3667c203487ca16b1ab9c4822702, "0")) {
                 logger.append(1);
                 logger.append(2);
                 logger.append("default");
                 logger.append(3);
-            } else if (java.util.Objects.equals(expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba, "2")) {
+            } else if (java.util.Objects.equals(expVal_a7cf3667c203487ca16b1ab9c4822702, "2")) {
                 logger.append(2);
                 logger.append("default");
                 logger.append(3);
-            } else if (!java.util.Objects.equals(expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba, "0") && !java.util.Objects.equals(expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba, "1") && !java.util.Objects.equals(expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba, "2") && !java.util.Objects.equals(expVal_d1b25f0b6f2945ae9e2dcb2b3dc037ba, "3")) {
+            } else if (!java.util.Objects.equals(expVal_a7cf3667c203487ca16b1ab9c4822702, "0") && !java.util.Objects.equals(expVal_a7cf3667c203487ca16b1ab9c4822702, "1") && !java.util.Objects.equals(expVal_a7cf3667c203487ca16b1ab9c4822702, "2") && !java.util.Objects.equals(expVal_a7cf3667c203487ca16b1ab9c4822702, "3")) {
                 logger.append("default");
                 logger.append(3);
             } else {
@@ -78,12 +78,12 @@ public class Foo_patched {
 
     public void testMostPrimitiveCase2(java.lang.String arg, java.lang.StringBuilder logger) {
         {
-            java.lang.String expVal_624aaea80e684593b32940646f491fef = arg;
-            if (java.util.Objects.equals(expVal_624aaea80e684593b32940646f491fef, "1") || java.util.Objects.equals(expVal_624aaea80e684593b32940646f491fef, "0")) {
+            java.lang.String expVal_507dc77190b14a13bbc39783914f3e16 = arg;
+            if (java.util.Objects.equals(expVal_507dc77190b14a13bbc39783914f3e16, "1") || java.util.Objects.equals(expVal_507dc77190b14a13bbc39783914f3e16, "0")) {
                 logger.append(1);
                 logger.append("default");
                 logger.append(3);
-            } else if ((!java.util.Objects.equals(expVal_624aaea80e684593b32940646f491fef, "0") && !java.util.Objects.equals(expVal_624aaea80e684593b32940646f491fef, "1") && !java.util.Objects.equals(expVal_624aaea80e684593b32940646f491fef, "2") && !java.util.Objects.equals(expVal_624aaea80e684593b32940646f491fef, "3")) || java.util.Objects.equals(expVal_624aaea80e684593b32940646f491fef, "2")) {
+            } else if ((!java.util.Objects.equals(expVal_507dc77190b14a13bbc39783914f3e16, "0") && !java.util.Objects.equals(expVal_507dc77190b14a13bbc39783914f3e16, "1") && !java.util.Objects.equals(expVal_507dc77190b14a13bbc39783914f3e16, "2") && !java.util.Objects.equals(expVal_507dc77190b14a13bbc39783914f3e16, "3")) || java.util.Objects.equals(expVal_507dc77190b14a13bbc39783914f3e16, "2")) {
                 logger.append("default");
                 logger.append(3);
             } else {
@@ -96,11 +96,11 @@ public class Foo_patched {
         logger.append("BEFORE");
         for (int i = 0; i < 10; i++) {
             {
-                int expVal_83603bc026dc4d3d9a74e0817c0bfe38 = i;
-                if (!java.util.Objects.equals(expVal_83603bc026dc4d3d9a74e0817c0bfe38, 1) && !java.util.Objects.equals(expVal_83603bc026dc4d3d9a74e0817c0bfe38, 2) && !java.util.Objects.equals(expVal_83603bc026dc4d3d9a74e0817c0bfe38, 3) && !java.util.Objects.equals(expVal_83603bc026dc4d3d9a74e0817c0bfe38, 4)) {
+                int expVal_e828feff93144282861fe662f1bc670e = i;
+                if (!java.util.Objects.equals(expVal_e828feff93144282861fe662f1bc670e, 1) && !java.util.Objects.equals(expVal_e828feff93144282861fe662f1bc670e, 2) && !java.util.Objects.equals(expVal_e828feff93144282861fe662f1bc670e, 3) && !java.util.Objects.equals(expVal_e828feff93144282861fe662f1bc670e, 4)) {
                     logger.append("DEFAULT" + arg);
-                    int expVal_26cb493454fc4a819cb009b91de25891 = i * 2;
-                    if (java.util.Objects.equals(expVal_26cb493454fc4a819cb009b91de25891, 7) || java.util.Objects.equals(expVal_26cb493454fc4a819cb009b91de25891, 6)) {
+                    int expVal_97975fa00c8744d383bbf935a61880bc = i * 2;
+                    if (java.util.Objects.equals(expVal_97975fa00c8744d383bbf935a61880bc, 7) || java.util.Objects.equals(expVal_97975fa00c8744d383bbf935a61880bc, 6)) {
                         {
                             for (; ;) {
                                 break;
@@ -110,9 +110,9 @@ public class Foo_patched {
                         }
                     }
                     logger.append("1");
-                } else if (java.util.Objects.equals(expVal_83603bc026dc4d3d9a74e0817c0bfe38, 1)) {
-                    int expVal_26cb493454fc4a819cb009b91de25891 = i * 2;
-                    if (java.util.Objects.equals(expVal_26cb493454fc4a819cb009b91de25891, 7) || java.util.Objects.equals(expVal_26cb493454fc4a819cb009b91de25891, 6)) {
+                } else if (java.util.Objects.equals(expVal_e828feff93144282861fe662f1bc670e, 1)) {
+                    int expVal_97975fa00c8744d383bbf935a61880bc = i * 2;
+                    if (java.util.Objects.equals(expVal_97975fa00c8744d383bbf935a61880bc, 7) || java.util.Objects.equals(expVal_97975fa00c8744d383bbf935a61880bc, 6)) {
                         {
                             for (; ;) {
                                 break;
@@ -122,7 +122,7 @@ public class Foo_patched {
                         }
                     }
                     logger.append("1");
-                } else if (java.util.Objects.equals(expVal_83603bc026dc4d3d9a74e0817c0bfe38, 3) || java.util.Objects.equals(expVal_83603bc026dc4d3d9a74e0817c0bfe38, 2)) {
+                } else if (java.util.Objects.equals(expVal_e828feff93144282861fe662f1bc670e, 3) || java.util.Objects.equals(expVal_e828feff93144282861fe662f1bc670e, 2)) {
                     logger.append("2 or 3");
                     logger.append("4");
                 } else {

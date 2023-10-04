@@ -1,0 +1,42 @@
+
+^
+java:S6208"CMerge the previous cases into this one using comma-separated label.(úÀôãùÿÿÿÿ
+^
+java:S6208."CMerge the previous cases into this one using comma-separated label.(·ÿ½äûÿÿÿÿ
+^
+java:S6208B"CMerge the previous cases into this one using comma-separated label.(‡’ã‡ıÿÿÿÿ
+^
+java:S6208S"CMerge the previous cases into this one using comma-separated label.(‡’ã‡ıÿÿÿÿ
+^
+java:S6208x"CMerge the previous cases into this one using comma-separated label.(‰ÆÄÎşÿÿÿÿ
+Y
+java:S6208j"CMerge the previous cases into this one using comma-separated label.(ô‹Êâ
+r	java:S127o"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÍÚäœùÿÿÿÿ
+f
+java:S1301%"KReplace this "switch" statement by "if" statements to increase readability.(ãœŠıÿÿÿÿ
+a
+java:S1301g"KReplace this "switch" statement by "if" statements to increase readability.(¤ôÑı
+H
+java:S1199k"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+f	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(Î—­Šşÿÿÿÿ
+F
+java:S4524"+Move this default to the end of the switch.(Î—­Šşÿÿÿÿ
+B
+java:S1172$",Remove this unused method parameter "input".(ûş•ò
+C	java:S108%")Either remove or fill this block of code.(ãœŠıÿÿÿÿ
+<	java:S131%""Add a default case to this switch.(ãœŠıÿÿÿÿ
+f	java:S128H"LEnd this switch case with an unconditional break, return or throw statement.(Î—­Šşÿÿÿÿ
+f	java:S128E"LEnd this switch case with an unconditional break, return or throw statement.(„™´àøÿÿÿÿ
+f	java:S128B"LEnd this switch case with an unconditional break, return or throw statement.(‡’ã‡ıÿÿÿÿ
+F
+java:S4524H"+Move this default to the end of the switch.(Î—­Šşÿÿÿÿ
+f	java:S128W"LEnd this switch case with an unconditional break, return or throw statement.(Î—­Šşÿÿÿÿ
+f	java:S128S"LEnd this switch case with an unconditional break, return or throw statement.(‡’ã‡ıÿÿÿÿ
+F
+java:S4524W"+Move this default to the end of the switch.(Î—­Šşÿÿÿÿ
+f	java:S128x"LEnd this switch case with an unconditional break, return or throw statement.(‰ÆÄÎşÿÿÿÿ
+f	java:S128d"LEnd this switch case with an unconditional break, return or throw statement.(İ–Ò˜ÿÿÿÿÿ
+F
+java:S4524d"+Move this default to the end of the switch.(İ–Ò˜ÿÿÿÿÿ
+7	java:S131g""Add a default case to this switch.(¤ôÑı
+Q	java:S125p"<This block of commented-out lines of code should be removed.(±¯€¤
